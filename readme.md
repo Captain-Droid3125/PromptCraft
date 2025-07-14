@@ -109,8 +109,8 @@ Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view the UI.
 
 ## 📌 Screenshots
 
-![Screenshot 1](generator\static\img\screenshot1.png)
-![Screenshot 2](generator\static\img\screenshot2.png)
+![Screenshot 1](generator/static/img/screenshot1.png)
+![Screenshot 2](generator/static/img/screenshot2.png)
 
 ---
 
