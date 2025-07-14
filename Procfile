@@ -1,0 +1,1 @@
+web: gunicorn project_promptcraft.wsgi --log-file -

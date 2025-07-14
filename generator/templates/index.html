@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PromptCraft - Text to Image</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Enter your prompt</h2>
+            <textarea id="prompt-input" placeholder="e.g. A futuristic logo for a company named Derma Tools"></textarea>
+            <button id="generate-btn">Generate</button>
+            <button id="regenerate-btn" disabled>Regenerate</button>
+            <button id="download-btn" disabled>Download</button>
+        </div>
+        <div class="right-panel">
+            <div id="loading" style="display: none; text-align: center; margin-top: 20px;">
+                <p><strong>Generating your image...</strong></p>
+                <img src="{% static 'img/spinner.gif' %}" alt="Loading..." width="50" />
+            </div>
+            <img id="output-image" src="{% static 'img/placeholder.png' %}" alt="Generated Image">
+        </div>
+    </div>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
